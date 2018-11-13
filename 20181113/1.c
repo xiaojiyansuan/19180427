@@ -5,10 +5,10 @@ int i;
 for(i=left;i<=right-1;i++)
 {
 if(arr[i]>arr[i+1])
-printf("非严格单调递增");
+printf("不是非严格单调递增");
 break;
 if(arr[i]<=arr[i+1])
-printf("是严格单调递增");
+printf("非严格单调递增");
 }
 }
 int main()
